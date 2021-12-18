@@ -1,10 +1,6 @@
-import React, { useState } from 'react';
-import { FlatList, Image, TouchableOpacity, View, Text, StyleSheet, TextInput } from 'react-native';
-import Icon from 'react-native-vector-icons/Feather';
+import React from 'react';
+import { FlatList } from 'react-native';
 
-import { ItemWrapper } from './ItemWrapper';
-
-import trashIcon from '../assets/icons/trash/trash.png'
 import { TaskItem } from './TaskItem';
 
 export interface Task {
